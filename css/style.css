@@ -150,16 +150,27 @@ img {
     
 
 /*Mobile*/
- @media screen and (max-width: 419px) {
+ @media screen and (max-width: 420px) {
 
-    .lessons > .container {
-        width: auto;
+    .container {
+        width: 100%;
+    }
 
-        }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-        }
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col{
+        width: 100%;
+    }
 
  }
